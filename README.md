@@ -105,6 +105,10 @@ Text matching is case-insensitive by default, and values like `"$1,234.50"`, `"4
 
 Up to **500 rows per call**. For bigger lists, split them across several calls. Anything larger returns a clear message rather than failing silently.
 
+## Privacy
+
+Your rows are processed in memory and never stored. To see which tools get used, each call records the tool name, row counts, whether it succeeded, the client name your app reports, the country and a one-way hashed caller ID. Your data, your arguments and your IP address are never kept in that log.
+
 ## Also available
 
 The same engine runs on the Apify Store as [Dataset Filter & Transform](https://apify.com/nerolabs/dataset-filter-transform), which also reads Apify datasets, CSV and Excel files and Google Sheets, and exports CSV or Excel.
