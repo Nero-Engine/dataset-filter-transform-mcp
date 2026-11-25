@@ -3,7 +3,7 @@
   "name": "io.github.Nero-Engine/dataset-filter-transform",
   "title": "Dataset Filter & Transform",
   "description": "Clean, filter and reshape JSON rows in one call: 26 transforms, 25 filters, sort, dedupe, limit.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "repository": {
     "url": "https://github.com/Nero-Engine/dataset-filter-transform-mcp",
     "source": "github"
