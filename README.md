@@ -101,6 +101,13 @@ One clean row comes out, with a summary of exactly why the other four went:
 
 Text matching is case-insensitive by default, and values like `"$1,234.50"`, `"49 USD"` and `"12%"` are read as numbers unless you turn that off.
 
+## Skills
+
+This server also publishes ready-made playbooks (Skills over MCP), so Claude and other agents know the steps for the whole job, not just each tool. Each is a `SKILL.md` at `skill://<name>/SKILL.md`, listed by `skills/list` and `resources/list`, read with `resources/read`.
+
+- `clean-filter-scraper-dataset`: Turn a messy scraper or API export (leads, products, listings, jobs) into a clean, filtered, sorted, de-duplicated list in one process_rows call, then hand it over as a table or CSV.
+- `rank-and-shortlist-rows`: Build a ranked shortlist from a list of JSON rows (the top 20 products by margin, the newest 50 jobs in a city, leads with a website and over 100 reviews) with a computed score column.
+
 ## Limits
 
 Up to **500 rows per call**. For bigger lists, split them across several calls. Anything larger returns a clear message rather than failing silently.
