@@ -121,3 +121,7 @@ Your rows are processed in memory and never stored. To see which tools get used,
 The same engine runs on the Apify Store as [Dataset Filter & Transform](https://apify.com/nerolabs/dataset-filter-transform), which also reads Apify datasets, CSV and Excel files and Google Sheets, and exports CSV or Excel.
 
 Built by **Nero Labs**.
+
+## Gemini CLI
+
+- **Gemini CLI:** `gemini extensions install https://github.com/Nero-Engine/dataset-filter-transform-mcp`

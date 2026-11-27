@@ -1,0 +1,12 @@
+{
+  "name": "dataset-filter-transform",
+  "version": "0.2.0",
+  "description": "Clean, filter and reshape JSON rows in one call: 26 transforms, 25 filters, sort, dedupe, limit.",
+  "mcpServers": {
+    "dataset-filter-transform": {
+      "httpUrl": "https://dataset-filter-transform.nerolabs.workers.dev/mcp",
+      "timeout": 30000
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}
