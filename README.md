@@ -1,5 +1,7 @@
 # Dataset Filter & Transform (Remote MCP Server)
 
+[![Dataset Filter & Transform (Remote MCP Server) MCP connector](https://glama.ai/mcp/connectors/io.github.Nero-Engine/dataset-filter-transform/badges/score.svg)](https://glama.ai/mcp/connectors/io.github.Nero-Engine/dataset-filter-transform)
+
 **Clean, filter and reshape messy JSON rows in a single tool call.** Hand it a list of rows from a scraper, an API or a spreadsheet, tell it how to reshape them and which rows to keep, and it hands back clean rows plus an exact account of what was removed and why.
 
 Built for AI agents. No install, no API key, no signup. Connect by URL and call it.
